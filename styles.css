@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #013243;
+  font-family: "Inter" sans-serif;
+  color: #32f5c8;
+}
+
+.paragraph {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.paragraph h1 {
+  font-size: 5.5rem;
+  font-family: "Sen", sans-serif;
+}
+
+.paragraph p {
+  color: #acbfc8;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+nav {
+  padding: 24px 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+nav img {
+  width: 80px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 5rem;
+  font-family: "Sen" sans-serif;
+  line-height: 1;
+}
+
+.btn {
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 7px;
+  background-color: #32f5c8;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: fixed;
+    bottom: 120px;
+    left: 38px;
+  }
+  
+ footer p {
+    color: #acbfc8;
+    font-size: 1.5rem;
+  }
